@@ -1,0 +1,4 @@
+Enter the number of test cases: Enter the number of elements in the array: Enter the elements: Enter the element to be searched: Present
+Comparision no. 6
+Enter the number of elements in the array: Enter the elements: Enter the element to be searched: Not Present
+Enter the number of elements in the array: Enter the elements: Enter the element to be searched: Not Present
