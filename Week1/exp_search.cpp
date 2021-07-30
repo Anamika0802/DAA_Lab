@@ -16,7 +16,7 @@ int binarySearch(vector<int> &arr, int low, int high, int key, int &comps){
     return -1;
 }
 
-int jumpSearch(vector<int> &arr, int key, int &comps){
+int expSearch(vector<int> &arr, int key, int &comps){
     int low = 1, high = 2, n = arr.size();
     while(high <= n){
         comps++;
@@ -48,7 +48,7 @@ int main(){
             cin >> arr[i];
         }
         int comps = 0;
-        int ans = jumpSearch(arr, key, comps);
+        int ans = expSearch(arr, key, comps);
         if(ans == -1) cout << "Not ";
         cout << "Present " << comps << '\n';
     }
