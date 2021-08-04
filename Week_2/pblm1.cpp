@@ -37,7 +37,7 @@ int main(){
 		cin>>key;
 		int l = binarySearch(a,key,-1);
 		int r = binarySearch(a,key,1);
-		cout<<key<<"- "<<r-l+1<<endl;
+		cout<<key<<" - "<<r-l+1<<endl;
 	}
 
 }
