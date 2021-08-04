@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+// Find pair in an array such that arr[i]-arr[j]=key.
+// Time Complexity: O(nlogn), Space Complexity: O(1)
 int binarySearch(vector<int>&a,int key,int i){
 	int l=0,h=a.size()-1;
 	while (l<=h)
@@ -13,7 +15,7 @@ int binarySearch(vector<int>&a,int key,int i){
     return 0;
 }
 int findPairs(vector<int>&a,int n,int k){
-    sort(a.begin(),a.end());
+    sort(a.begin(),a.end()); //sorting array in log(n) time
     int count=0;
     for (int i = 0; i < n; i++)
     {
