@@ -36,13 +36,13 @@ int main(){
                 int key = arr[i]+arr[j];
                 int k = binarySearch(arr, j+1, n-1, key);
                 if(k != -1){
-                    cout << i << ' ' << j << ' ' << k << ' ';
+                    cout << i << ' ' << j << ' ' << k <<endl;
                     bro = true;
                     break;
                 }
             }if(bro) break;
         }
-        if(!bro) cout << "No Sequence Found\n";
+        if(!bro) cout << "No sequence found.\n";
     }
 
     return 0;
