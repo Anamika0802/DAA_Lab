@@ -2,7 +2,7 @@
 using namespace std;
 
 // Given an unsorted array of integers, 
-// find  whether two elements exist such that their sum is equa to the given key element.
+// find  whether two elements exist such that their sum is equal to the given key element.
 // Time Complexity: O(nlogn), Space Complexity: O(n)
 
 int partition(vector<int> &arr, int low, int high, int key){
